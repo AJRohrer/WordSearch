@@ -7,6 +7,10 @@
     font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
 }
 
+.grey {
+    background:lightgray;
+}
+
 .ajr-container-column{
     display: flex;
     flex-wrap: wrap;
@@ -42,6 +46,7 @@
 }
 
 .ajr-item{
+    border: dotted;
     flex-grow: 1;
     width: 32%;
     min-width: 50px;
@@ -56,7 +61,14 @@
 
 .ajr-item-10{
     flex-grow: 1;
-    width: 10%;
+    width: 12%;
+    min-width: 20px;
+    border: dotted;
+}
+
+.ajr-item-90{
+    flex-grow: 1;
+    width: 85%;
     min-width: 20px;
     border: dotted;
 }

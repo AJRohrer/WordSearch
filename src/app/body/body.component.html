@@ -1,27 +1,41 @@
 <section class="ajr-container-grey">
-  <article class="ajr-item black">
-    Copy Paste Word Search Here:
-  </article>
 
-  <article class="ajr-item black">
-    Results:
-  </article>
-</section>
-
-<section class="ajr-container-grey">
   <article class="ajr-item">
-    <textarea name="Text1" cols="92" rows="35" class="ajr-center-input"></textarea>
-  </article>
+    <section class="ajr-containercolumn">
 
-  <article class="ajr-item-10">
-    <section class="ajr-container-column">
+      <article class="ajr-item black">
+        Copy/paste Word Search Here:
+      </article>
+
       <article class="ajr-item-100">
-        <button pButton type="button" class="ui-button-info" label="findWord" (click)="findWord($event)">Find Word</button>
+        <form>
+          <section class="ajr-container grey">
+            <article class="ajr-item-90">
+              <textarea name="Text1" cols="92" rows="35" class="ajr-center-input"></textarea>
+            </article>
+
+            <article class="ajr-item-10">
+              <section class="ajr-container-column">
+                <article class="ajr-item-100">
+                  <button pButton type="submit" class="ui-button-info" label="findWord" (click)="findWord()">Find Word</button>
+                </article>
+              </section>
+            </article>
+          </section>
+        </form>
       </article>
     </section>
   </article>
 
   <article class="ajr-item">
+    <section class="ajr-containercolumn">
+      <article class="ajr-item black">
+        Results:
+      </article>
 
+      <article class="ajr-item">
+
+      </article>
+    </section>
   </article>
 </section>
