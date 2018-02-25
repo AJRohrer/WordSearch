@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { ButtonModule } from 'primeng/button';
 
 @Component({
   selector: 'app-body',
@@ -10,6 +11,11 @@ export class BodyComponent implements OnInit {
   constructor() { }
 
   ngOnInit() {
+  }
+
+  //button click for solve
+  findWord(){
+    
   }
 
 }

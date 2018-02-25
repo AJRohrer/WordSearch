@@ -1,1 +1,100 @@
 /* You can add global styles to this file, and also import other style files */
+.ajr-container {
+    display: flex;
+    flex-wrap: wrap;
+    background:rgb(72, 42, 240);
+    color: white;
+    font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+}
+
+.ajr-container-column{
+    display: flex;
+    flex-wrap: wrap;
+    background:lightgray;
+    color: white;
+    font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+    flex-direction: column;
+}
+
+.ajr-container-grey {
+    display: flex;
+    flex-wrap: wrap;
+    background:lightgray;
+    color: white;
+    font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+
+}
+
+.ajr-item-header {
+    border: dotted;
+    flex-grow: 1;
+    width: 32%;
+    font-size: 32px;
+}
+
+.ajr-inner-item-header {
+    border: dotted;
+    cursor: pointer;
+    flex-grow: 1;
+    width: 20%;
+    min-width: 50px;
+    font-size: 20px;
+}
+
+.ajr-item{
+    flex-grow: 1;
+    width: 32%;
+    min-width: 50px;
+}
+
+.ajr-item-100{
+    flex-grow: 1;
+    width: 100%;
+    min-width: 50px;
+    border:dotted;
+}
+
+.ajr-item-10{
+    flex-grow: 1;
+    width: 10%;
+    min-width: 20px;
+    border: dotted;
+}
+
+input {
+    width: 100%;
+}
+
+.menudots {
+    color: blue;
+    margin-right: 5px;
+    font-size: 25px;
+}
+
+.menudots:hover{
+    cursor:pointer;
+    color: green;
+}
+
+.searchicon {
+    color: blue;
+    font-size: 15px;
+}
+
+.searchicon:hover{
+    cursor:pointer;
+    color:green;
+}
+
+.ajr-align-right {
+    text-align: right;
+}
+
+.ajr-center-input{
+    display: block;
+    margin: 0 auto;
+}
+
+.black{
+    color: black;
+}
