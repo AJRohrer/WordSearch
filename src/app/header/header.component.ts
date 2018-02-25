@@ -6,10 +6,11 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./header.component.css']
 })
 export class HeaderComponent implements OnInit {
-
+  MenuOptions;
   constructor() { }
 
   ngOnInit() {
+    this.MenuOptions = [ {option: 'New Wordsearch'}, {option: 'Options'}];
   }
 
 }
