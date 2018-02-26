@@ -13,9 +13,4 @@ export class BodyComponent implements OnInit {
   ngOnInit() {
   }
 
-  //button click for solve
-  findWord(){
-    
-  }
-
 }
