@@ -67,3 +67,23 @@ export class BodyComponent implements OnInit {
   }
 
 }
+
+class Letter {
+    private letter = '';
+    private x = '';
+    private y = '';
+    private partOfWord = false;
+
+    constructor(l, _x, _y, _partOfWord){
+        this.letter = l;
+        this.x = _x;
+        this.y = _y;
+        this.partOfWord = _partOfWord;
+    }
+
+    getObject(){
+        return this;
+    }
+
+
+}
