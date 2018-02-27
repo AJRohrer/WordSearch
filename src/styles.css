@@ -30,14 +30,12 @@
 }
 
 .ajr-item-header {
-    border: dotted;
     flex-grow: 1;
     width: 32%;
     font-size: 32px;
 }
 
 .ajr-inner-item-header {
-    border: dotted;
     cursor: pointer;
     flex-grow: 1;
     width: 20%;
@@ -46,7 +44,6 @@
 }
 
 .ajr-item{
-    border: dotted;
     flex-grow: 1;
     width: 32%;
     min-width: 50px;
@@ -54,23 +51,21 @@
 
 .ajr-item-100{
     flex-grow: 1;
-    width: 100%;
+    width: 98%;
     min-width: 50px;
-    border:dotted;
 }
 
 .ajr-item-10{
     flex-grow: 1;
     width: 12%;
     min-width: 20px;
-    border: dotted;
 }
 
-.ajr-item-90{
+.ajr-item-90-550px{
     flex-grow: 1;
     width: 85%;
     min-width: 20px;
-    border: dotted;
+    height: 550px;
 }
 
 input {
@@ -105,8 +100,15 @@ input {
 .ajr-center-input{
     display: block;
     margin: 0 auto;
+    width:100%;
+    height:100%;
+    box-sizing: border-box;
 }
 
 .black{
     color: black;
+}
+
+.ajr-textarea{
+    
 }
